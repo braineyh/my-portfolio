@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 25px;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+} 
+
+.home-section{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./images/image7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}  
+.animation{
+    margin: auto;
+    width: 40vw;
+}
+
+
+
+.my-name{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.intro{
+    color: white;
+}
+
+.fa-facebook{
+    color: white;
+    background-color: navy;
+    width: 1.3rem;
+    height:1.3rem;
+    border-radius: 50%;
+    padding: 2px;
+    
+}
+
+.fa-github{
+    background-color: gray;
+    width: 1.3em;
+    height: 1.2em;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.fa-instagram{
+    color: white;
+    background-color: brown;
+    width: 1.2em;
+    height: 1.1em;
+    border-radius: 30%;
+    padding: 2px;
+}
+
+.fa-whatsapp{
+    color: greenyellow; 
+    background-color: green;
+    width: 1.3em;
+    height: 1.2em;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.fa-linkedin{
+    color: white;
+    background-color: blue;
+    width: 1.4em;
+    height: 1.2em;
+    border-radius: 30%;
+    padding: 2px;
+}
+
+.fa-twitter{
+    color: blue;
+    background-color: white;
+    width: 1.3em;
+    height: 1.2em;
+    border-radius: 20%;
+    padding: 2px;
+}
+.home-section > p{
+    font-size: 25px;
+}
+
+hr{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.about{
+    width: 60%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+    
+}
+
+.about > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about-content > h1{
+    font-size: xx-large;
+}
+
+.about-content > p{
+    font-size: large;
+}
+
+.resume{
+    min-height: 90vh;
+    padding-bottom: 2em;
+    background-color: goldenrod;
+}
+
+.resume-content{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.lesson-hr{
+    width: 60%;
+}
